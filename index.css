@@ -203,7 +203,6 @@ li {
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    height: 221px;
     width: 87px;
     background-color: #fff;
 }
@@ -824,7 +823,7 @@ svg {
 }
 
 .container_commentaires {
-    background: url(https://images.pexels.com/photos/212269/pexels-photo-212269.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260.com/photos/1410227/pexels-photo-1410227.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260);
+    background: url(Img/Photo_ChambreNoire_Laburie.jpg);
     height: 630px;
     background-color: grey;
     margin-top: 60px;
@@ -956,7 +955,6 @@ svg {
     display: flex;
     justify-content: center;
     font-family: Avereg;
-    font-style: italic;
     color: #737373;
     font-size: 0.9rem;
     White-space: nowrap;
@@ -990,8 +988,7 @@ svg {
 }
 
 input,
-textarea,
-button {
+textarea {
     font-style: italic;
     font-family: Avereg;
 }

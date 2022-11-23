@@ -11,6 +11,8 @@
 //     lastScrollValue = top;
 // });
 
+//-------------------- Header -------------------- //
+
 var lastScrollTop = 0;
 navbar = document.getElementById("navbar");
 window.addEventListener("scroll", function () {
@@ -22,6 +24,8 @@ window.addEventListener("scroll", function () {
   }
   lastScrollTop = scrollTop;
 })
+
+//-------------------- Hamburger -------------------- //
 
 const hamburger = document.querySelector(".hamburger");
 const navMenu = document.querySelector(".nav-menu");
@@ -36,12 +40,16 @@ document.querySelectorAll(".nav-link").forEach(n => n.addEventListener("click", 
   navMenu.classList.remove("active");
 }))
 
+//-------------------- Carousel -------------------- //
+
 var slideIndex = 1;
 showDivs(slideIndex);
 
 function plusDivs(n) {
   showDivs(slideIndex += n);
 }
+
+//-------------------- Slider (Commentaires) -------------------- //
 
 function showDivs(n) {
   var i;
