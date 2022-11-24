@@ -188,14 +188,17 @@ li {
 .container_Main_RS {
     display: flex;
     flex-flow: row-reverse;
+    z-index: 100;
 }
 
 .container_RS {
     display: flex;
+    justify-content: center;
+    align-items: center;
     flex-direction: column;
     position: absolute;
     position: fixed;
-    top: 38%;
+    top: 42%;
 }
 
 .RS {
@@ -203,8 +206,15 @@ li {
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    width: 87px;
     background-color: #fff;
+}
+
+.img_RS_1 {
+    margin: 20px 20px 10px 20px;
+}
+
+.img_RS_2 {
+    margin: 10px 20px 20px 20px;
 }
 
 @media screen and (max-width: 450px) {
@@ -212,14 +222,12 @@ li {
     .RS {
         display: flex;
         flex-direction: row;
-        height: 60px;
-        width: 221px;
         background-color: #fff;
     }
 
     .container_RS {
         top: none;
-        top: 93%;
+        top: 91.7%;
     }
 
     .container_Main_RS {
@@ -227,11 +235,14 @@ li {
         flex-flow: row;
         justify-content: center;
     }
-}
 
+    .img_RS_1 {
+        margin: 20px 10px 20px 20px;
+    }
 
-svg {
-    margin: 20px;
+    .img_RS_2 {
+        margin: 20px 20px 20px 10px;
+    }
 }
 
 .container_accueil {
@@ -421,7 +432,7 @@ svg {
 }
 
 .container_chambres_bg {
-    background: url(https://images.pexels.com/photos/1410227/pexels-photo-1410227.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260);
+    background: url(Img/Photo_27_Laburie.jpg);
     height: 525px;
     background-color: grey;
     display: flex;
@@ -645,8 +656,8 @@ svg {
 
 .container_espaces_carrousel_rectangle>img {
     display: flex;
-    width: 95%;
     height: 630px;
+    width: 600px;
     background-color: grey;
     object-fit: cover;
     background-size: cover;
@@ -846,6 +857,7 @@ svg {
     align-items: center;
     flex-direction: column;
     text-align: center;
+    z-index: 101;
 }
 
 .container_commentaires_title {
