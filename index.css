@@ -188,7 +188,6 @@ li {
 .container_Main_RS {
     display: flex;
     flex-flow: row-reverse;
-    z-index: 100;
 }
 
 .container_RS {
@@ -199,6 +198,7 @@ li {
     position: absolute;
     position: fixed;
     top: 42%;
+    z-index: 100;
 }
 
 .RS {
@@ -210,11 +210,11 @@ li {
 }
 
 .img_RS_1 {
-    margin: 20px 20px 10px 20px;
+    margin: 15px 15px 10px 15px;
 }
 
 .img_RS_2 {
-    margin: 10px 20px 20px 20px;
+    margin: 10px 15px 15px 15px;
 }
 
 @media screen and (max-width: 450px) {
@@ -227,7 +227,7 @@ li {
 
     .container_RS {
         top: none;
-        top: 91.7%;
+        bottom: -53%
     }
 
     .container_Main_RS {
@@ -237,11 +237,11 @@ li {
     }
 
     .img_RS_1 {
-        margin: 20px 10px 20px 20px;
+        margin: 15px 7.5px 15px 15px;
     }
 
     .img_RS_2 {
-        margin: 20px 20px 20px 10px;
+        margin: 15px 15px 15px 7.5px;
     }
 }
 
@@ -948,7 +948,6 @@ li {
 }
 
 .container_contact {
-    height: 650px;
     background-color: #F5F5F5;
     margin-top: 20px;
 }
