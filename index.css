@@ -311,8 +311,9 @@ li {
 
     .container_accueil_first {
         width: 100%;
-        height: 200px;
+        height: 300px;
         font-size: 1.5rem;
+        margin-bottom: -50px;
     }
 
     .container_accueil_second {
