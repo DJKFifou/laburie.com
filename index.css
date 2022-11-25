@@ -643,7 +643,6 @@ li {
     width: 19%;
     transform: rotate(-20deg);
     left: 13.6%;
-}
 
 .w3-button {
     top: 50%;
@@ -772,7 +771,6 @@ li {
     }
 }
 
-@media screen and (min-width: 600px) and (max-width: 700px) {
 
     .container_espaces_logo_arrondi {
         top: 495%;
