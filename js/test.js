@@ -40,7 +40,7 @@ document.querySelectorAll(".nav-link").forEach(n => n.addEventListener("click", 
 
 const carousel = document.querySelector(".carousel");
 firstImg = carousel.querySelectorAll("img")[0];
-arrowIcons = document.querySelectorAll(".container_espaces_carrousel .w3-button")
+arrowIcons = document.querySelectorAll(".container_espaces_carrousel .w3-button");
 
 let isDragStart = false, isDragging = false, prevPageX, prevScrollLeft, positionDiff;
 
