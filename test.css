@@ -627,12 +627,12 @@ svg {
     font-family: Lovereg;
 }
 
-.container_espaces_logo_arrondi {
+/* .container_espaces_logo_arrondi {
     position: absolute;
     width: 19%;
     transform: rotate(-20deg);
     left: 13.6%;
-}
+} */
 
 .w3-button {
     top: 50%;
