@@ -106,7 +106,7 @@ const dragStart = (e) => {
 const dragging = (e) => {
   if (!isDragStart) return;
   e.preventDefault();
-  isDragging = false
+  isDragging = false;
   carousel.classList.add("dragging");
   positionDiff = (e.pageX || e.touches[0].pageX) - prevPageX;
   carousel.scrollLeft = prevScrollLeft - positionDiff;
