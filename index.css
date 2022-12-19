@@ -977,7 +977,6 @@ li {
 .container_contact_text-5 {
     display: flex;
     padding: 0px 20px;
-    text-decoration: none;
 }
 
 @media screen and (max-width: 855px) {
