@@ -1034,6 +1034,7 @@ li {
 .container_contact_text-5 {
     display: flex;
     padding: 0px 20px;
+    color: #737373 !important;
 }
 
 @media screen and (max-width: 855px) {
