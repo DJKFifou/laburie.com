@@ -126,7 +126,6 @@ li {
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    position: absolute;
     position: fixed;
     top: 42%;
     z-index: 100;
@@ -158,7 +157,7 @@ li {
 
     .container_RS {
         top: none;
-        bottom: -53%
+        top: 93%;
     }
 
     .container_Main_RS {
@@ -306,5 +305,9 @@ th {
 
     .container_footer {
         height: 288px;
+    }
+    
+    .footer_link:nth-child(1){
+        margin-top: 5px;
     }
 }
