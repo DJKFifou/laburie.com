@@ -156,8 +156,8 @@ li {
     }
 
     .container_RS {
-        top: none;
-        top: 93%;
+        top: initial;
+        bottom: 0;
     }
 
     .container_Main_RS {
