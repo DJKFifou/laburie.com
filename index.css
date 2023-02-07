@@ -1243,7 +1243,7 @@ iframe {
 @media screen and (max-width: 450px) {
 
     .container_footer {
-        height: 325px;
+        height: 315px;
     }
 
     .footer_link:nth-child(1) {
