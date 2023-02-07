@@ -25,6 +25,7 @@
     padding: 0;
     box-sizing: border-box;
     scroll-behavior: smooth;
+    border: solid 1px greenyellow;
 }
 
 /* ---------------- Header ----------------- */
@@ -673,6 +674,12 @@ li {
 
 .w3-button:last-child {
     right: -23px;
+}
+
+@media screen and (max-width: 400px) {
+    .w3-button:last-child {
+        display: none;
+    }
 }
 
 .container_espaces_carrousel {
