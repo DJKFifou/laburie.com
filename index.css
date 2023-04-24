@@ -430,7 +430,7 @@ li {
 }
 
 .container_chambres_bg {
-    background: url(Img/Photo_27_Laburie.jpg);
+    background: url(Img/PhotoChambreOcreLaburie_2.jpg);
     height: 525px;
     background-color: grey;
     display: flex;
@@ -850,7 +850,7 @@ li {
 }
 
 .container_commentaires {
-    background: url(Img/Photo_28_Laburie.jpg);
+    background: url(Img/PhotoChambreNoireLaburie_1.jpg);
     height: 630px;
     background-color: grey;
     margin-top: 60px;
