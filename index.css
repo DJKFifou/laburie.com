@@ -457,20 +457,20 @@ li {
 }
 
 .container_chambres_bg {
-  background: url(Img/PhotoChambreOcreLaBurie_2.jpg);
-  height: 525px;
-  background-color: grey;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
-  flex-direction: column;
-  font-family: Lovereg;
-  object-fit: cover;
-  width: 100%;
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-attachment: fixed;
+    background: url(Img/PhotoChambreOcreLaBurie_2.jpg);
+    height: 525px;
+    background-color: grey;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+    font-family: Lovereg;
+    object-fit: cover;
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
 }
 
 .container_chambres_square {
@@ -869,18 +869,18 @@ li {
 }
 
 .container_commentaires {
-  background: url(Img/PhotoChambreNoireLaBurie_1.jpg);
-  height: 630px;
-  background-color: grey;
-  margin-top: 60px;
-  object-fit: cover;
-  width: 100%;
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  display: flex;
-  align-items: center;
-  justify-content: space-around;
+    background: url(Img/PhotoChambreNoireLaBurie_1.jpg);
+    height: 630px;
+    background-color: grey;
+    margin-top: 60px;
+    object-fit: cover;
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
 }
 
 @media screen and (max-width: 700px) {
